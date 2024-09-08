@@ -10,13 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Harl_2.0
+NAME = BSP
 
 CXX = c++
 
 CXXFLAGS = -Werror -Wextra -Wall -std=c++98
 
-SRCS = main.cpp Harl.cpp
+SRCS = main.cpp Fixed.cpp Point.cpp bsp.cpp
 
 OBJS = ${SRCS:.cpp=.o}
 

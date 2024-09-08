@@ -10,13 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Harl_2.0
+NAME = ClapTrap
 
 CXX = c++
 
 CXXFLAGS = -Werror -Wextra -Wall -std=c++98
 
-SRCS = main.cpp Harl.cpp
+SRCS = main.cpp ClapTrap.cpp
 
 OBJS = ${SRCS:.cpp=.o}
 
